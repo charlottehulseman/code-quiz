@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title> Code Quiz </title>
 </head>
+
+
 <body>
-     <!-- High Scores -->
-     <a href="HighScores.html">View Highscores</a>
-    
-     <div id="wrapper">
-         <!-- Timer -->
-         <div id="currentTime"></div>
-         <!-- Quiz content -->
-         <div id="questionsDiv">
-             <h1>Coding Quiz Challenge</h1>
-             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
-                 answers
-                 will penalize your score/time by ten seconds!</p>
-             <ul id="choicesUl"></ul>
-             <!-- Buttons -->
-             <button id="startTime">Start Quiz</button>
-         </div>
- 
-     </div>
- 
- 
-     <script src="questions.js"></script>
- 
-    
+  <!-- Link to highscores -->
+  <a href="./highscores.html">View Highscores</a>
+  <!-- This is a wrapper -->
+  <div id="wrapper">
+      <!-- Div for timer -->
+      <div id="timerDiv"></div>
+      <!-- Div for quiz content -->
+      <div id="questionsDiv">
+          <h1>Welcome to this random code quiz</h1>
+          <p>Let's test your 🧠. If you answer a question incorrectly, I'll deduct time from your 🕑. Good luck!</p>
+          <ul id="choicesUl"></ul>
+          <!-- Buttons -->
+          <button id="startTime">Start Quiz</button>
+      </div>
+
+  </div>
+
+      <script src="./assets/script.js"></script>
 </body>
-</html>
